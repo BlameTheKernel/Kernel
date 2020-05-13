@@ -1,3 +1,4 @@
 Today I learned...the importance of IOCTLs for Kernel exploitation.
 
 ## What's an IOCTL
+An IOCTL is a request with a code to a driver. The driver IOCTL's handler runs in thread context (i.e the context of the user-mode thread that initiated the request)
