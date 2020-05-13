@@ -1,0 +1,3 @@
+KiSystemCall64 is the main system call dispatcher in x64 Windows. 
+
+On x86, Windows uses the SYSENTER instruction to implement system calls. The mechanics is similar to that of SYSCALL on x64 processors.
